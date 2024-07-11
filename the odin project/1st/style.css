@@ -1,0 +1,36 @@
+:root{
+    --dark : red;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+   
+
+}
+.my{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--dark);
+    background: linear-gradient(90deg, blue, red); height: 100vh;
+    /* transition: all ease-in 3s; */
+
+    
+}
+#hello{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: clamp(100px,6vw,200px) ;
+   
+  
+}
+

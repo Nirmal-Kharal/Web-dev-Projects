@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-image:#F9FAFB;
+    
+}
+#hero-section{
+    /* background-color: black; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+}
+/* __________________LEFT CONTAINER------------------- */
+#left{
+    height: 100%;
+    width: 50vw;
+    background-color: white;
+    position: relative;
+    background-image: url(./assest/halie-west-25xggax4bSA-unsplash.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    
+    
+
+}
+
+/* ------------BOTH IMAGE CONTAINER------------ */
+/* #img1{
+    height: 110vh;
+    position: relative;
+    display: flex;
+     /* overflow: hidden; */
+} */
+/* -----------LEAVES IMAGE-------------- */
+
+/* ---------------ODIN LOGO---------------------- */
+#ni{
+   height: 9vw;
+   width: 9vw;
+   /* z-index: 3; */
+   background-color:rgba(128, 128, 128, 0.566);
+   position: absolute;
+   padding:80px;
+   transform: translate(-50%,-50%);
+   top: 50%;
+   left: 50%;
+}
+/* ------------------on right side ------------------ */
+#right{
+    height: 100%;
+    width: 100%;
+    /* margin: 4vw; */
+    display: flex;
+    flex-direction: column;
+}
+#first h1{
+    font-weight: 800;
+    margin:  6vh 3vw;
+    font-size: 2vw;
+}
+#first h3{
+    font-weight: 800;
+    margin:4vh 3vw;
+    font-size: 2vw;
+
+}
+#second{
+    background-color: white;
+    height: 40vh;
+    width: 100%;
+    box-shadow: 1px -3px 6px rgba(0, 0, 0, 0.558); /* Add the drop shadow */
+
+}
+#second h1{
+    margin: 3vh 3vw;
+    text-transform: capitalize;
+}
+
+#verfication{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.hey{
+    font-size: 20px;
+    line-height: 4vh;
+    padding: -3vh;
+}
+
+
+button{
+    margin-left: 3vw;
+    margin-top: 3vw;
+    padding: 2vh 3vw;
+    background-color: greenyellow;
+    border-radius: 5px;
+    border: none;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+

@@ -1,0 +1,59 @@
+:root
+{
+    --text : black;
+    --bg : white;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#container{
+    background-color: var(--bg);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* ------heading------- */
+
+#heading
+{
+    width: 100%;
+    height: 60vh;
+    background-image: url(./img/p1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* -----left-------- */
+
+#left{
+height: 40vh;
+width: 40%;
+margin: 20px 30px;
+margin-top: 0;
+display: flex;
+position: relative;
+}
+
+
+#left img{
+    margin:30px;
+    scale: 2;
+    padding: 30px 30px;
+  
+}
+#left h1{
+font-weight: 500;
+position: absolute;
+color: var(--bg);
+
+}
