@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;  
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: #dadada; */
+    display: flex;
+}
+#left{
+    position: relative;
+    width: 40%;
+    /* background-color: aqua; */
+    height: 100%;
+}
+#lnav i{
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: 800;
+    
+}
+
+#lnav{
+    display: flex;
+    width: 100%;
+    padding: 20px 30px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#lnavr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#lnavr a{
+    margin-right: 70px;text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+#lnavr >i{
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 800;
+}
+#right{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+}
+
+#rtop{
+    display: flex;
+height: 50%;
+width: 100%;
+background-color: #8f8f8f;}
+
+
+#rbottom{
+height: 50%;
+width: 100%;
+background-image: url(https://images.unsplash.com/photo-1669139330576-1af5417a4da9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-size: cover;
+background-position: center;}
+
+#rtop-left{
+height: 100%;
+width: 55%;
+background-image: url(https://images.unsplash.com/photo-1598048150218-53ab5609ef31?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-size: cover;
+background-position: center;}
+
+
+#rtop-right{
+height: 100%;
+width: 45%;
+background-image: url(https://images.unsplash.com/photo-1586788224331-947f68671cf1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-size: cover;
+background-position: bottom;
+}
+
+
+
+#left #text{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+#text h1{
+    font-size: 7vw;
+    margin-bottom: 2vw;
+    font-weight: 700;
+}
+#text p{
+   opacity: 0.6;
+    margin-bottom: 4vw;
+}
+
+#text a{
+    border-bottom: solid #dadada;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+
+@media (max-width:600px) {
+    #main{
+     flex-direction: column;
+     overflow: hidden;
+     
+     
+    }#main #left {
+        width: 100%;
+    }
+    #main #right{
+        
+        width: 100%;
+    }
+    
+}
