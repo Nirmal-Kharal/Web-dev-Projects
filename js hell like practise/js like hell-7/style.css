@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: black;
+}
+
+
+#download {
+    /* padding: 10px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #dadada;
+    width: 400px;
+    height: 10px;
+    border-radius: 100px;
+
+}
+
+#progress {
+transition: all cubic-bezier(0.19, 1, 0.22, 1) , 0.1s;
+
+    background-color: #37a92f;
+    width: "";
+    height: 100%;
+    border-radius: 100px;
+
+}
+h4{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
